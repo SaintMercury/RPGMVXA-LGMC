@@ -1,8 +1,7 @@
 # RPGMVXA-LGMC
 Repository for rpgmaker game.
 
-'''
-Installation
+## Installation
 
 1. Download and instull ruby onto your machine. If you are using windows, use the provided link below. Make sure to get 2.2.4 for 32-bit systems; DO NOT get a version other than a 2.2.X or x64 bit version. Make sure to add ruby/gem to your system path (should be in the installer).
 
@@ -13,13 +12,12 @@ Installation
 4. Last, install a git client, or learn to use git. The easiest way to do this is to make a github account, and install the github client using the link provided below. Once installed, you will need to clone the repository. Once done, you should be able to start working on the project.
 
 
-'''
-Workflow
+## Workflow
 
 Consult the rvpacker github for how you should conduct work.
 
-'''
-Helpful Links
+
+## Helpful Links
 - https://github.com/Solistra/rvpacker
 - https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
 - http://rubyinstaller.org/downloads
