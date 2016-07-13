@@ -16,6 +16,9 @@ Repository for rpgmaker game.
 
 Consult the rvpacker github for how you should conduct work.
 
+Trello is nice site that can allow us to collaborate without actively talking to eachother, look at it here: https://trello.com/
+
+I recommend making an account and playing around with it to see if it's worth our time.
 
 ## Helpful Links
 - https://github.com/Solistra/rvpacker
