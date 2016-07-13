@@ -9,10 +9,23 @@ Repository for rpgmaker game.
 
 3. Open a terminal and make sure that ruby has been added to your path by typing "gem -v" into your terminal. You should recieve a version number. Once you are sure, install rvpacker using the provided link below. To verify that rvpacker has install correctly, type rvpacker into your terminal. You should recieve some error message.
 
-4. Last, install a git client, or learn to use git. The easiest way to do this is to make a github account, and install the github client using the link provided below. Once installed, you will need to clone the repository. Once done, you should be able to start working on the project.
+4. Install a git client, or learn to use git. The easiest way to do this is to make a github account, and install the github client using the link provided below. Once installed, you will need to clone the repository. Once done, you should be able to start working on the project.
+
+5. Lastly, once the dev tools are all setup, and the repo is cloned, create a new project where the repo is cloned, making sure that all of the repository files are in the project directory. NOTE: RPGMaker often crashes once the project has been made, restart rpgm and it should be fine. You should be ready to work on the game.
 
 
 ## Workflow
+
+1. sync changes from others
+
+2. pack changes into the data files using pack.bat or the rvpacker cli
+
+3. add changes
+
+4. unpack your changes
+
+5. sync your changes with the repo
+
 
 Consult the rvpacker github for how you should conduct work.
 
