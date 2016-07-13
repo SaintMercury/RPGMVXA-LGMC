@@ -22,3 +22,5 @@ Consult the rvpacker github for how you should conduct work.
 - https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
 - http://rubyinstaller.org/downloads
 - https://desktop.github.com/
+### Tutorials
+- https://www.rpgmakerweb.com/support/products/tutorials
