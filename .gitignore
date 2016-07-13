@@ -1,0 +1,7 @@
+*.exe
+*.rvproj2
+*.rvdata2
+Data
+System
+Scripts/*.rb
+!LGMC_*.rb
