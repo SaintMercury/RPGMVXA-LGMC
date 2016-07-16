@@ -27,7 +27,7 @@ Repository for rpgmaker game.
 5. sync your changes with the repo
 
 
-Consult the rvpacker github for how you should conduct work.
+Consult the rvpacker github for how you should conduct work. The "Map Landlord" will be Max. Contact him for map assets. DO NOT CREATE NEW MAPS!
 
 Trello is nice site that can allow us to collaborate without actively talking to eachother, look at it here: https://trello.com/
 
