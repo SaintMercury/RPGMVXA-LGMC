@@ -2055,12 +2055,12 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Demon God
+  name: Man McMannington
   gold: 50000
   battler_hue: 0
   exp: 25000
   hit: 95
-  battler_name: Evilgod
+  battler_name: Evilking
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
