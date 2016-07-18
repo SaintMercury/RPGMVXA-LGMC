@@ -1,13 +1,13 @@
 ---
 - 
 - !ruby/object:RPG::Actor
-  name: Eric
-  face_index: 0
-  character_index: 0
+  name: '?'
+  face_index: 3
+  character_index: 6
   initial_level: 1
-  face_name: Actor4
+  face_name: Monster1
   class_id: 1
-  character_name: Actor4
+  character_name: Monster2
   id: 1
   features: []
   note: ''
@@ -17,8 +17,8 @@
   - 0
   - 1
   - 0
-  nickname: Silver Reaper
-  description: "A veteran warrior who fought on many battlefields.\r\nHe becomes uncontrollable in battle when berserk."
+  nickname: ''
+  description: Wobble wobble
   max_level: 99
 - !ruby/object:RPG::Actor
   name: Natalie
@@ -41,13 +41,13 @@
   description: "Her father is a master assassin. Throughout her\r\nyouth, she mastered the techniques of fighting."
   max_level: 99
 - !ruby/object:RPG::Actor
-  name: Terence
-  face_index: 2
-  character_index: 2
+  name: Arnold
+  face_index: 7
+  character_index: 7
   initial_level: 1
-  face_name: Actor4
+  face_name: Evil
   class_id: 3
-  character_name: Actor4
+  character_name: Evil
   id: 3
   features: []
   note: ''
@@ -57,8 +57,8 @@
   - 0
   - 1
   - 0
-  nickname: Wandering Paladin
-  description: "Stripped of his status. He wanders around protecting\r\nothers and stays true to his code of honour."
+  nickname: ''
+  description: '...'
   max_level: 99
 - !ruby/object:RPG::Actor
   name: Ernest
@@ -141,13 +141,13 @@
   description: "His youth is bound by hatred. He acts like a \r\nwise-crack due to his life."
   max_level: 99
 - !ruby/object:RPG::Actor
-  name: Alice
-  face_index: 5
-  character_index: 5
+  name: Rattles
+  face_index: 1
+  character_index: 1
   initial_level: 1
-  face_name: Actor5
+  face_name: Monster1
   class_id: 8
-  character_name: Actor5
+  character_name: Monster1
   id: 8
   features: []
   note: ''
@@ -157,8 +157,8 @@
   - 0
   - 1
   - 0
-  nickname: Saviour of Joan
-  description: "A woman whose destiny was to become a saint. She\r\nis full of passion and gives equal love to the enemy."
+  nickname: ''
+  description: Doesn't celebrate birthdays.
   max_level: 99
 - !ruby/object:RPG::Actor
   name: Isabelle
@@ -182,13 +182,13 @@
   max_level: 99
   icon_index: 0
 - !ruby/object:RPG::Actor
-  name: Noah
-  face_index: 6
-  character_index: 6
+  name: Burgrum
+  face_index: 2
+  character_index: 2
   initial_level: 1
-  face_name: Actor5
+  face_name: Monster1
   class_id: 10
-  character_name: Actor5
+  character_name: Monster1
   id: 10
   features: []
   note: ''
@@ -198,7 +198,7 @@
   - 0
   - 1
   - 0
-  nickname: Star Seer
-  description: "A hermit who avoids the populace by living in the\r\nmountains. He seeks the true identity of the evil star."
+  nickname: ''
+  description: Gets really angry when people confuse sorcerer and wizard.
   max_level: 99
   icon_index: 0
