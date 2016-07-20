@@ -1,8 +1,36 @@
 ---
 1: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: MAP001
+  name: Level 4
   expanded: false
   order: 1
+  scroll_y: 208
+  parent_id: 0
+2: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Level 3
+  expanded: true
+  order: 2
+  scroll_y: 208
+  parent_id: 0
+3: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Level 2
+  expanded: false
+  order: 3
+  scroll_y: 208
+  parent_id: 0
+4: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Level 1
+  expanded: false
+  order: 4
+  scroll_y: 208
+  parent_id: 0
+5: !ruby/object:RPG::MapInfo
+  scroll_x: 272
+  name: Surface
+  expanded: false
+  order: 5
   scroll_y: 208
   parent_id: 0
