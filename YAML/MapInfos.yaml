@@ -2,35 +2,42 @@
 1: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: Level 4 (Slime Dilema)
-  expanded: false
+  expanded: true
   order: 1
   scroll_y: 208
   parent_id: 0
 2: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: Level 3
-  expanded: true
-  order: 2
+  expanded: false
+  order: 3
   scroll_y: 208
   parent_id: 0
 3: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: Level 2
   expanded: false
-  order: 3
+  order: 4
   scroll_y: 208
   parent_id: 0
 4: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: Level 1
   expanded: false
-  order: 4
+  order: 5
   scroll_y: 208
   parent_id: 0
 5: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: Surface
   expanded: false
-  order: 5
+  order: 6
   scroll_y: 208
   parent_id: 0
+6: !ruby/object:RPG::MapInfo
+  scroll_x: 544
+  name: City of Monsters
+  expanded: false
+  order: 2
+  scroll_y: 385
+  parent_id: 1
