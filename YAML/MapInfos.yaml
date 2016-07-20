@@ -1,7 +1,7 @@
 ---
 1: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: Level 4
+  name: Level 4 (Slime Dilema)
   expanded: false
   order: 1
   scroll_y: 208
