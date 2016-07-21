@@ -2,12 +2,12 @@
 - 
 - !ruby/object:RPG::Actor
   name: '?'
-  face_index: 3
-  character_index: 6
+  face_index: 0
+  character_index: 0
   initial_level: 1
-  face_name: Monster1
+  face_name: Slime_potential_faceart_2.0
   class_id: 1
-  character_name: Monster2
+  character_name: $slime_gk_new_green
   id: 1
   features: []
   note: ''
