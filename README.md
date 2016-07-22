@@ -3,7 +3,7 @@ Repository for rpgmaker game.
 
 ## Installation
 
-1. Download and instull ruby onto your machine. If you are using windows, use the provided link below. Make sure to get 2.2.4 for 32-bit systems; DO NOT get a version other than a 2.2.X or x64 bit version. Make sure to add ruby/gem to your system path (should be in the installer).
+1. Download and instull ruby onto your machine. If you are using windows, use the provided link below. Make sure to get 2.2.4 for 32-bit systems; DO NOT get a version other than a 2.2.X 32 bit version, no 64-bit either. Make sure to add ruby/gem to your system path (should be in the installer).
 
 2. From the same download page as ruby installer, download the dev-kit for the correct version of ruby you have, and follow the instructions using the link provided below.
 
