@@ -22,12 +22,12 @@
   max_level: 99
 - !ruby/object:RPG::Actor
   name: Natalie
-  face_index: 1
+  face_index: 0
   character_index: 1
   initial_level: 1
-  face_name: Actor4
+  face_name: Skeleton_potential_1.0
   class_id: 2
-  character_name: Actor4
+  character_name: Monster1
   id: 2
   features: []
   note: ''
