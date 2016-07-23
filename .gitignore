@@ -1,6 +1,7 @@
 *.exe
 *.rvproj2
 *.rvdata2
+*.ini
 Data
 System
 Scripts/*.rb
