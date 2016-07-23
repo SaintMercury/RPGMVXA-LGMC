@@ -23,11 +23,11 @@
 - !ruby/object:RPG::Actor
   name: Natalie
   face_index: 0
-  character_index: 1
+  character_index: 0
   initial_level: 1
   face_name: Skeleton_potential_1.0
   class_id: 2
-  character_name: Monster1
+  character_name: $Potential_Skeleton_Sprite1.1
   id: 2
   features: []
   note: ''
