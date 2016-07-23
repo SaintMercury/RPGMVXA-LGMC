@@ -62,12 +62,12 @@
   max_level: 99
 - !ruby/object:RPG::Actor
   name: Ernest
-  face_index: 4
-  character_index: 4
+  face_index: 0
+  character_index: 7
   initial_level: 1
-  face_name: Actor4
+  face_name: zoomed orc_1.0
   class_id: 4
-  character_name: Actor4
+  character_name: orc_sprite
   id: 4
   features: []
   note: ''
