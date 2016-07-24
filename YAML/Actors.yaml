@@ -67,7 +67,7 @@
   initial_level: 1
   face_name: zoomed orc_1.0
   class_id: 4
-  character_name: orc_sprite
+  character_name: orc_sprite_possible
   id: 4
   features: []
   note: ''
