@@ -363,17 +363,29 @@
   - ▼ Materials
   - 
 - - 122
+  - Yanfly Core Engine
+  - Yanfly_Core_Engine.rb
+- - 123
+  - Yanfly Battle Engine
+  - Yanfly_Battle_Engine.rb
+- - 124
+  - Victory Aftermath
+  - Victory_Aftermath.rb
+- - 125
+  - Visual Battlers
+  - Visual_Battlers.rb
+- - 126
   - ( Insert here )
   - _Insert_here_.rb
-- - 123
+- - 127
   - ''
   - 
-- - 124
+- - 128
   - ▼ Main Process
   - 
-- - 125
+- - 129
   - Main
   - Main.rb
-- - 126
+- - 130
   - ''
   - 

@@ -7,12 +7,7 @@
     hidden: false
     x: 196
     enemy_id: 1
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 348
-    enemy_id: 1
-  name: Slime*2
+  name: Slime*1
   pages:
   - !ruby/object:RPG::Troop::Page
     list:

@@ -7,10 +7,10 @@
   initial_level: 1
   face_name: Slime_potential_faceart_2.0
   class_id: 1
-  character_name: $slime_gk_new_green
+  character_name: $slime_gk_new_green1.1
   id: 1
   features: []
-  note: ''
+  note: "<win quotes>\r\nblub wobble blub [Suck it nerds!]\r\n</win quotes>\r\n<level quotes>\r\nwobble wubble blerr [Better look out!]\r\n</level quotes>\r\n<drops quotes>\r\nblabble ooze pphlller [This looks tasty...]\r\n</drops quotes>"
   equips:
   - 1
   - 46
@@ -27,7 +27,7 @@
   initial_level: 1
   face_name: Skeleton_potential_1.0
   class_id: 2
-  character_name: $Potential_Skeleton_Sprite1.1
+  character_name: $Potential_Skeleton_Sprite1_3
   id: 2
   features: []
   note: ''
