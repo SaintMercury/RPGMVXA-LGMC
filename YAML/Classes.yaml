@@ -1967,7 +1967,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Class
-  name: Warrior
+  name: Blob
   learnings: []
   id: 11
   features:
@@ -2253,7 +2253,7 @@
   icon_index: 0
   description: ''
 - !ruby/object:RPG::Class
-  name: Cleric
+  name: Dark Cleric
   learnings: []
   id: 13
   features:
