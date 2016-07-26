@@ -6,36 +6,36 @@
   character_index: 0
   initial_level: 1
   face_name: Slime_potential_faceart_2.0
-  class_id: 1
+  class_id: 11
   character_name: $slime_gk_new_green1.1
   id: 1
   features: []
   note: "<win quotes>\r\nblub wobble blub [Suck it nerds!]\r\n</win quotes>\r\n<level quotes>\r\nwobble wubble blerr [Better look out!]\r\n</level quotes>\r\n<drops quotes>\r\nblabble ooze pphlller [This looks tasty...]\r\n</drops quotes>"
   equips:
-  - 1
-  - 46
   - 0
-  - 1
+  - 0
+  - 0
+  - 0
   - 0
   nickname: ''
   description: Wobble wobble
   max_level: 99
 - !ruby/object:RPG::Actor
-  name: Natalie
+  name: Rattles
   face_index: 0
   character_index: 0
   initial_level: 1
   face_name: Skeleton_potential_1.0
-  class_id: 2
+  class_id: 13
   character_name: $Potential_Skeleton_Sprite1_3
   id: 2
   features: []
   note: ''
   equips:
-  - 7
   - 0
   - 0
-  - 1
+  - 0
+  - 0
   - 0
   nickname: Thunder Fist
   description: "Her father is a master assassin. Throughout her\r\nyouth, she mastered the techniques of fighting."
@@ -46,36 +46,36 @@
   character_index: 7
   initial_level: 1
   face_name: Evil
-  class_id: 3
+  class_id: 14
   character_name: Evil
   id: 3
   features: []
   note: ''
   equips:
-  - 13
-  - 46
   - 0
-  - 1
+  - 0
+  - 0
+  - 0
   - 0
   nickname: ''
   description: '...'
   max_level: 99
 - !ruby/object:RPG::Actor
-  name: Ernest
+  name: Burgrum
   face_index: 0
   character_index: 7
   initial_level: 1
   face_name: zoomed orc_1.0
-  class_id: 4
+  class_id: 12
   character_name: orc_sprite_possible
   id: 4
   features: []
   note: ''
   equips:
-  - 19
-  - 46
   - 0
-  - 1
+  - 0
+  - 0
+  - 0
   - 0
   nickname: Magic Swordsman
   description: "A wandering swordsman looking for his master.\r\nHe is one who has mastered the Magic Sword."
