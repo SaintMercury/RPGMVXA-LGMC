@@ -24,10 +24,10 @@ test_battlers:
   actor_id: 1
   level: 1
   equips:
-  - 1
-  - 46
   - 0
-  - 1
+  - 0
+  - 0
+  - 0
   - 0
 _: 7829367
 edit_map_id: 6
@@ -174,7 +174,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: Battle1, volume: 100, pitch: 100}
-version_id: 45101852
+version_id: 57187869
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160

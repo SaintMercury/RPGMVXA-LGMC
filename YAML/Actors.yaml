@@ -38,7 +38,7 @@
   - 0
   - 0
   nickname: Undead Priest
-  description: "Her father is a master assassin. Throughout her\r\nyouth, she mastered the techniques of fighting."
+  description: "A dedicated priest that is very good at his job. Too\r\nbad life in the dungeon doesn't inspire a good mass..."
   max_level: 99
 - !ruby/object:RPG::Actor
   name: Stan
@@ -58,7 +58,7 @@
   - 0
   - 0
   nickname: Living Armor
-  description: '...'
+  description: "Stan has been in the dungeon as long as anyone \r\ncan remember. If silence is golden, he is rich."
   max_level: 99
 - !ruby/object:RPG::Actor
   name: Burgrum
@@ -78,7 +78,7 @@
   - 0
   - 0
   nickname: Orc Sorcerer
-  description: "A wandering swordsman looking for his master.\r\nHe is one who has mastered the Magic Sword."
+  description: "A tempermental sorcerer that takes everything too\r\nliterally. Don't mix up wizards and sorcerers."
   max_level: 99
 - !ruby/object:RPG::Actor
   name: Ryoma

@@ -1,12 +1,12 @@
 ---
 - 
 - !ruby/object:RPG::Enemy
-  name: Slime
+  name: Dungeon Bug
   gold: 5
   battler_hue: 0
   exp: 3
   hit: 95
-  battler_name: Slime
+  battler_name: Fairy
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -121,12 +121,12 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Hornet
+  name: Soldier (F)
   gold: 15
-  battler_hue: 0
+  battler_hue: 320
   exp: 8
   hit: 95
-  battler_name: Hornet
+  battler_name: Warrior_f
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -185,12 +185,12 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Spider
+  name: Soldier (M)
   gold: 25
   battler_hue: 0
   exp: 13
   hit: 95
-  battler_name: Spider
+  battler_name: Soldier
   actions:
   - !ruby/object:RPG::Enemy::Action
     condition_type: 0
@@ -245,7 +245,7 @@
     kind: 0
     data_id: 1
 - !ruby/object:RPG::Enemy
-  name: Rate
+  name: Rat
   gold: 40
   battler_hue: 0
   exp: 19
