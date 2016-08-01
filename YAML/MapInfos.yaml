@@ -39,7 +39,7 @@
   name: City of Monsters
   expanded: true
   order: 2
-  scroll_y: 1124
+  scroll_y: 1125
   parent_id: 1
 7: !ruby/object:RPG::MapInfo
   scroll_x: 272

@@ -58,7 +58,7 @@
   - 0
   - 0
   nickname: Undead Priest
-  description: "A dedicated priest that is very good at his job. Too\r\nbad life in the dungeon doesn't inspire a good mass..."
+  description: "A dedicated priest that is very good at his job. Too\r\nbad dungeon life doesn't inspire a any clergymen..."
   max_level: 99
 - !ruby/object:RPG::Actor
   name: Stan
