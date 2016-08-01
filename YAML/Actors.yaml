@@ -199,6 +199,6 @@
   - 1
   - 0
   nickname: ''
-  description: Gets really angry when people confuse sorcerer and wizard.
+  description: "Gets really angry when people confuse sorcerer and\r\nwizard."
   max_level: 99
   icon_index: 0
