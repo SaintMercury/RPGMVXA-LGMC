@@ -1987,14 +1987,6 @@
     code: 22
     data_id: 2
     value: 0.04
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 41
-    data_id: 1
-    value: 0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 41
-    data_id: 2
-    value: 0.0
   note: ''
   params: !ruby/object:Table
     dim: 2
@@ -2130,14 +2122,6 @@
     code: 22
     data_id: 2
     value: 0.04
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 41
-    data_id: 1
-    value: 0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 41
-    data_id: 2
-    value: 0.0
   note: ''
   params: !ruby/object:Table
     dim: 2
@@ -2273,14 +2257,6 @@
     code: 22
     data_id: 2
     value: 0.04
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 41
-    data_id: 1
-    value: 0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 41
-    data_id: 2
-    value: 0.0
   note: ''
   params: !ruby/object:Table
     dim: 2
@@ -2416,14 +2392,6 @@
     code: 22
     data_id: 2
     value: 0.04
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 41
-    data_id: 1
-    value: 0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 41
-    data_id: 2
-    value: 0.0
   note: ''
   params: !ruby/object:Table
     dim: 2

@@ -9,7 +9,27 @@
   class_id: 11
   character_name: $slime_gk_new_green1.1
   id: 1
-  features: []
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 41
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 128
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 129
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 130
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 131
+    value: 0.0
   note: "<win quotes>\r\nblub wobble blub [Suck it nerds!]\r\n</win quotes>\r\n<level quotes>\r\nwobble wubble blerr [Better look out!]\r\n</level quotes>\r\n<drops quotes>\r\nblabble ooze pphlller [This looks tasty...]\r\n</drops quotes>"
   equips:
   - 0
