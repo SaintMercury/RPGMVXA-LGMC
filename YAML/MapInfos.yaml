@@ -39,28 +39,28 @@
   name: City of Monsters
   expanded: true
   order: 2
-  scroll_y: 1287
+  scroll_y: 362
   parent_id: 1
 7: !ruby/object:RPG::MapInfo
   scroll_x: 544
   name: Bar
-  expanded: true
+  expanded: false
   order: 3
   scroll_y: 321
   parent_id: 6
 8: !ruby/object:RPG::MapInfo
-  scroll_x: 272
-  name: MAP008
-  expanded: false
+  scroll_x: 544
+  name: Inn
+  expanded: true
   order: 4
-  scroll_y: 208
+  scroll_y: 321
   parent_id: 6
 9: !ruby/object:RPG::MapInfo
-  scroll_x: 272
-  name: MAP009
-  expanded: false
+  scroll_x: 448
+  name: Pawn Shop
+  expanded: true
   order: 5
-  scroll_y: 208
+  scroll_y: 321
   parent_id: 6
 10: !ruby/object:RPG::MapInfo
   scroll_x: 272
