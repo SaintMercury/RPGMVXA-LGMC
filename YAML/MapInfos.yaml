@@ -35,16 +35,16 @@
   scroll_y: 208
   parent_id: 0
 6: !ruby/object:RPG::MapInfo
-  scroll_x: 800
+  scroll_x: 1038
   name: City of Monsters
   expanded: true
   order: 2
-  scroll_y: 1125
+  scroll_y: 827
   parent_id: 1
 7: !ruby/object:RPG::MapInfo
   scroll_x: 272
   name: MAP007
-  expanded: false
+  expanded: true
   order: 3
   scroll_y: 208
   parent_id: 6
