@@ -4189,7 +4189,7 @@
   name: Strong Morph
   occasion: 1
   icon_index: 96
-  message1: ''
+  message1: ' uses Strong Morph!'
   scope: 11
   animation_id: 0
   note: ''
@@ -4238,7 +4238,7 @@
   name: Brute Morph
   occasion: 1
   icon_index: 100
-  message1: ''
+  message1: ' uses Brute Morph!'
   scope: 11
   animation_id: 0
   note: ''
@@ -4287,7 +4287,7 @@
   name: Siege Morph
   occasion: 1
   icon_index: 99
-  message1: ''
+  message1: ' uses Siege Morph!'
   scope: 11
   animation_id: 0
   note: ''
@@ -4336,7 +4336,7 @@
   name: Swift Morph
   occasion: 1
   icon_index: 98
-  message1: ''
+  message1: ' uses Swift Morph!'
   scope: 11
   animation_id: 0
   note: ''
@@ -4381,10 +4381,10 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
-  name: ''
+  description: Take some of the elemental material of your foe!
+  name: Assimilate
   occasion: 0
-  icon_index: 0
+  icon_index: 121
   message1: ''
   scope: 1
   animation_id: 0
@@ -4393,7 +4393,12 @@
   speed: 0
   id: 132
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 44
+    data_id: 1
+    value1: 0.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -4402,7 +4407,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
+  stype_id: 8
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0

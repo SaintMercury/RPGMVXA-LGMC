@@ -695,8 +695,8 @@
   name: Strong
   priority: 50
   icon_index: 96
-  message1: ''
-  message4: ''
+  message1: has morphed into something strong!
+  message4: stopped being strong...
   restriction: 0
   message3: ''
   note: ''
@@ -727,10 +727,6 @@
     data_id: 2
     value: 1.4
   - !ruby/object:RPG::BaseItem::Feature
-    code: 22
-    data_id: 0
-    value: 0.1
-  - !ruby/object:RPG::BaseItem::Feature
     code: 21
     data_id: 3
     value: 0.9
@@ -742,13 +738,17 @@
     code: 21
     data_id: 6
     value: 1.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.1
   auto_removal_timing: 0
   min_turns: 1
   max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: false
+  remove_at_battle_end: true
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
@@ -757,8 +757,8 @@
   name: Brute
   priority: 50
   icon_index: 100
-  message1: ''
-  message4: ''
+  message1: has morphed into something brutish!
+  message4: stopped being a brute...
   restriction: 0
   message3: ''
   note: ''
@@ -784,13 +784,41 @@
     code: 41
     data_id: 5
     value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.35
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.4
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 1
+    value: 1.1
   auto_removal_timing: 0
   min_turns: 1
   max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: false
+  remove_at_battle_end: true
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
@@ -799,8 +827,8 @@
   name: Siege
   priority: 50
   icon_index: 99
-  message1: ''
-  message4: ''
+  message1: has morphed into something siegish!
+  message4: stopped being siegish...
   restriction: 0
   message3: ''
   note: ''
@@ -826,13 +854,41 @@
     code: 41
     data_id: 6
     value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.9
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.7
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.5
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 2
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.1
   auto_removal_timing: 0
   min_turns: 1
   max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: false
+  remove_at_battle_end: true
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
@@ -841,8 +897,8 @@
   name: Swift
   priority: 50
   icon_index: 98
-  message1: ''
-  message4: ''
+  message1: has morphed into something swift!
+  message4: stopped being swift...
   restriction: 0
   message3: ''
   note: ''
@@ -868,13 +924,41 @@
     code: 41
     data_id: 7
     value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 2
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 4
+    value: 1.15
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 0.85
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 6
+    value: 1.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 7
+    value: 1.1
   auto_removal_timing: 0
   min_turns: 1
   max_turns: 1
   chance_by_damage: 100
   steps_to_remove: 100
   remove_by_walking: false
-  remove_at_battle_end: false
+  remove_at_battle_end: true
   remove_by_damage: false
   remove_by_restriction: false
   description: ''

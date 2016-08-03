@@ -2,9 +2,12 @@
 - 
 - !ruby/object:RPG::CommonEvent
   trigger: 0
-  name: ''
+  name: Assimilate
   switch_id: 1
   list:
+  - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: ['#monster = #Learn how to get monster']}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [elements = $elements]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: ['#element = LGMC_Utils::getMonsterElement("") #Breaks atm']}
   - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   id: 1
 - !ruby/object:RPG::CommonEvent

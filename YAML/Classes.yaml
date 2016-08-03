@@ -1968,7 +1968,11 @@
   description: ''
 - !ruby/object:RPG::Class
   name: Blob
-  learnings: []
+  learnings:
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 132
+    note: ''
   id: 11
   features:
   - !ruby/object:RPG::BaseItem::Feature
@@ -1987,6 +1991,30 @@
     code: 22
     data_id: 2
     value: 0.04
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 41
+    data_id: 8
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 41
+    data_id: 3
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 128
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 129
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 130
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 43
+    data_id: 131
+    value: 0.0
   note: ''
   params: !ruby/object:Table
     dim: 2

@@ -375,17 +375,20 @@
   - LGMC_Visual Battlers
   - LGMC_Visual_Battlers.rb
 - - 126
+  - LGMC_Utils
+  - LGMC_Utils.rb
+- - 127
   - ( Insert here )
   - _Insert_here_.rb
-- - 127
+- - 128
   - ''
   - 
-- - 128
+- - 129
   - ▼ Main Process
   - 
-- - 129
+- - 130
   - Main
   - Main.rb
-- - 130
+- - 131
   - ''
   - 
