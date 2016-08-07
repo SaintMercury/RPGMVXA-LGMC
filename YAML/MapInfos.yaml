@@ -39,7 +39,7 @@
   name: City of Monsters
   expanded: true
   order: 2
-  scroll_y: 1080
+  scroll_y: 1187
   parent_id: 1
 7: !ruby/object:RPG::MapInfo
   scroll_x: 544
@@ -60,26 +60,26 @@
   name: Pawn Shop
   expanded: false
   order: 5
-  scroll_y: 336
+  scroll_y: 321
   parent_id: 6
 10: !ruby/object:RPG::MapInfo
   scroll_x: 432
   name: Homeless Shelter
-  expanded: true
+  expanded: false
   order: 6
   scroll_y: 368
   parent_id: 6
 11: !ruby/object:RPG::MapInfo
   scroll_x: 464
   name: Item shop
-  expanded: true
+  expanded: false
   order: 7
   scroll_y: 320
   parent_id: 6
 12: !ruby/object:RPG::MapInfo
   scroll_x: 336
   name: House 1
-  expanded: true
+  expanded: false
   order: 8
   scroll_y: 320
   parent_id: 6
