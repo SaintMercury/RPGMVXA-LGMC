@@ -30,7 +30,7 @@ test_battlers:
   - 0
   - 0
 _: 7829367
-edit_map_id: 7
+edit_map_id: 8
 battle_end_me: !ruby/object:RPG::ME
   name: Victory1
   pitch: 100
@@ -173,8 +173,8 @@ variables:
 - ''
 - ''
 - ''
-battle_bgm: !ruby/object:RPG::BGM {name: Battle1, volume: 100, pitch: 100}
-version_id: 98825321
+battle_bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
+version_id: 82260857
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160
@@ -353,7 +353,7 @@ skill_types:
 - Brute
 - Siege
 - Swift
-- Slime
+- Attunement
 weapon_types:
 - ''
 - Axe

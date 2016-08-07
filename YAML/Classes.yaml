@@ -1971,7 +1971,51 @@
   learnings:
   - !ruby/object:RPG::Class::Learning
     level: 1
-    skill_id: 132
+    skill_id: 128
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 129
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 130
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 131
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 140
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 133
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 134
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 136
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 135
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 137
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 138
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 139
     note: ''
   id: 11
   features:
@@ -1998,22 +2042,6 @@
   - !ruby/object:RPG::BaseItem::Feature
     code: 41
     data_id: 3
-    value: 0.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 43
-    data_id: 128
-    value: 0.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 43
-    data_id: 129
-    value: 0.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 43
-    data_id: 130
-    value: 0.0
-  - !ruby/object:RPG::BaseItem::Feature
-    code: 43
-    data_id: 131
     value: 0.0
   note: ''
   params: !ruby/object:Table

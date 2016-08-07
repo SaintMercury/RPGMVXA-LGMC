@@ -4188,7 +4188,7 @@
   description: ''
   name: Strong Morph
   occasion: 1
-  icon_index: 96
+  icon_index: 115
   message1: ' uses Strong Morph!'
   scope: 11
   animation_id: 0
@@ -4199,12 +4199,12 @@
   features: []
   effects:
   - !ruby/object:RPG::UsableItem::Effect
-    code: 22
+    code: 21
     data_id: 26
     value1: 1.0
     value2: 0.0
   - !ruby/object:RPG::UsableItem::Effect
-    code: 21
+    code: 22
     data_id: 27
     value1: 1.0
     value2: 0.0
@@ -4237,7 +4237,7 @@
   description: ''
   name: Brute Morph
   occasion: 1
-  icon_index: 100
+  icon_index: 116
   message1: ' uses Brute Morph!'
   scope: 11
   animation_id: 0
@@ -4254,12 +4254,12 @@
     value2: 0.0
   - !ruby/object:RPG::UsableItem::Effect
     code: 22
-    data_id: 27
+    data_id: 28
     value1: 1.0
     value2: 0.0
   - !ruby/object:RPG::UsableItem::Effect
     code: 21
-    data_id: 28
+    data_id: 27
     value1: 1.0
     value2: 0.0
   - !ruby/object:RPG::UsableItem::Effect
@@ -4286,7 +4286,7 @@
   description: ''
   name: Siege Morph
   occasion: 1
-  icon_index: 99
+  icon_index: 113
   message1: ' uses Siege Morph!'
   scope: 11
   animation_id: 0
@@ -4298,7 +4298,7 @@
   effects:
   - !ruby/object:RPG::UsableItem::Effect
     code: 21
-    data_id: 26
+    data_id: 28
     value1: 1.0
     value2: 0.0
   - !ruby/object:RPG::UsableItem::Effect
@@ -4308,7 +4308,7 @@
     value2: 0.0
   - !ruby/object:RPG::UsableItem::Effect
     code: 22
-    data_id: 28
+    data_id: 26
     value1: 1.0
     value2: 0.0
   - !ruby/object:RPG::UsableItem::Effect
@@ -4335,7 +4335,7 @@
   description: ''
   name: Swift Morph
   occasion: 1
-  icon_index: 98
+  icon_index: 112
   message1: ' uses Swift Morph!'
   scope: 11
   animation_id: 0
@@ -4381,10 +4381,10 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: Take some of the elemental material of your foe!
-  name: Assimilate
+  description: ''
+  name: '------------------'
   occasion: 0
-  icon_index: 121
+  icon_index: 0
   message1: ''
   scope: 1
   animation_id: 0
@@ -4393,11 +4393,558 @@
   speed: 0
   id: 132
   features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 1
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Assume the ice element!
+  name: Ice Morph
+  occasion: 0
+  icon_index: 97
+  message1: ''
+  scope: 11
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 133
+  features: []
   effects:
   - !ruby/object:RPG::UsableItem::Effect
-    code: 44
-    data_id: 1
-    value1: 0.0
+    code: 21
+    data_id: 31
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 30
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 32
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 33
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 34
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 35
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 36
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 37
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 8
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Assume the water element!
+  name: Water Morph
+  occasion: 0
+  icon_index: 99
+  message1: ''
+  scope: 11
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 134
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 32
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 31
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 30
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 33
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 34
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 35
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 36
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 37
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 8
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Assume the thunder element!
+  name: Thunder Morph
+  occasion: 0
+  icon_index: 98
+  message1: ''
+  scope: 11
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 135
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 33
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 31
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 32
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 30
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 34
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 35
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 36
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 37
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 8
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Assume the earth element!
+  name: Earth Morph
+  occasion: 0
+  icon_index: 100
+  message1: ''
+  scope: 11
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 136
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 34
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 31
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 32
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 33
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 30
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 35
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 36
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 37
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 8
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Assume the wind element!
+  name: Wind Morph
+  occasion: 0
+  icon_index: 101
+  message1: ''
+  scope: 11
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 137
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 35
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 31
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 32
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 33
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 34
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 30
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 36
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 37
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 8
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Assume the fire element!
+  name: Holy Morph
+  occasion: 0
+  icon_index: 102
+  message1: ''
+  scope: 11
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 138
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 36
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 31
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 32
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 33
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 34
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 35
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 30
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 37
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 8
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Assume the fire element!
+  name: Dark Morph
+  occasion: 0
+  icon_index: 103
+  message1: ''
+  scope: 11
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 139
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 37
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 31
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 32
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 33
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 34
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 35
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 36
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 30
+    value1: 1.0
+    value2: 0.0
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 8
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: Assume the fire element!
+  name: Fire Morph
+  occasion: 0
+  icon_index: 96
+  message1: ''
+  scope: 11
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 140
+  features: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 30
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 31
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 32
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 33
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 34
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 35
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 36
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 22
+    data_id: 37
+    value1: 1.0
     value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
@@ -4416,7 +4963,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: ''
+  name: '-------------------'
   occasion: 0
   icon_index: 0
   message1: ''
@@ -4425,7 +4972,7 @@
   note: ''
   mp_cost: 0
   speed: 0
-  id: 133
+  id: 141
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
@@ -4445,7 +4992,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: ''
+  name: Beat
   occasion: 0
   icon_index: 0
   message1: ''
@@ -4454,7 +5001,7 @@
   note: ''
   mp_cost: 0
   speed: 0
-  id: 134
+  id: 142
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
@@ -4474,7 +5021,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: ''
+  name: Bash
   occasion: 0
   icon_index: 0
   message1: ''
@@ -4483,7 +5030,7 @@
   note: ''
   mp_cost: 0
   speed: 0
-  id: 135
+  id: 143
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
@@ -4503,7 +5050,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: ''
+  name: Crush
   occasion: 0
   icon_index: 0
   message1: ''
@@ -4512,7 +5059,7 @@
   note: ''
   mp_cost: 0
   speed: 0
-  id: 136
+  id: 144
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
@@ -4532,7 +5079,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: ''
+  name: Throw
   occasion: 0
   icon_index: 0
   message1: ''
@@ -4541,7 +5088,7 @@
   note: ''
   mp_cost: 0
   speed: 0
-  id: 137
+  id: 145
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
@@ -4561,7 +5108,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: ''
+  name: '------------------'
   occasion: 0
   icon_index: 0
   message1: ''
@@ -4570,7 +5117,7 @@
   note: ''
   mp_cost: 0
   speed: 0
-  id: 138
+  id: 146
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
@@ -4590,7 +5137,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: ''
+  name: Slam
   occasion: 0
   icon_index: 0
   message1: ''
@@ -4599,7 +5146,7 @@
   note: ''
   mp_cost: 0
   speed: 0
-  id: 139
+  id: 147
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
@@ -4619,7 +5166,7 @@
 - !ruby/object:RPG::Skill
   message2: ''
   description: ''
-  name: ''
+  name: Flex
   occasion: 0
   icon_index: 0
   message1: ''
@@ -4628,7 +5175,210 @@
   note: ''
   mp_cost: 0
   speed: 0
-  id: 140
+  id: 148
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 1
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: Flop
+  occasion: 0
+  icon_index: 0
+  message1: ''
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 149
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 1
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: Engulf
+  occasion: 0
+  icon_index: 0
+  message1: ''
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 150
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 1
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: '------------------'
+  occasion: 0
+  icon_index: 0
+  message1: ''
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 151
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 1
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: Fling
+  occasion: 0
+  icon_index: 0
+  message1: ''
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 152
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 1
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: Sludge
+  occasion: 0
+  icon_index: 0
+  message1: ''
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 153
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 1
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: Build
+  occasion: 0
+  icon_index: 0
+  message1: ''
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 154
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 1
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: Glob
+  occasion: 0
+  icon_index: 0
+  message1: ''
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 155
   features: []
   effects: []
   damage: !ruby/object:RPG::UsableItem::Damage

@@ -694,7 +694,7 @@
   message2: ''
   name: Strong
   priority: 50
-  icon_index: 96
+  icon_index: 115
   message1: has morphed into something strong!
   message4: stopped being strong...
   restriction: 0
@@ -756,7 +756,7 @@
   message2: ''
   name: Brute
   priority: 50
-  icon_index: 100
+  icon_index: 116
   message1: has morphed into something brutish!
   message4: stopped being a brute...
   restriction: 0
@@ -826,7 +826,7 @@
   message2: ''
   name: Siege
   priority: 50
-  icon_index: 99
+  icon_index: 113
   message1: has morphed into something siegish!
   message4: stopped being siegish...
   restriction: 0
@@ -896,7 +896,7 @@
   message2: ''
   name: Swift
   priority: 50
-  icon_index: 98
+  icon_index: 112
   message1: has morphed into something swift!
   message4: stopped being swift...
   restriction: 0
@@ -952,6 +952,302 @@
     code: 21
     data_id: 7
     value: 1.1
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Fire Morph
+  priority: 50
+  icon_index: 96
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 30
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 3
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 6
+    value: 1.25
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Ice Morph
+  priority: 50
+  icon_index: 97
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 31
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 4
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 6
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 1.25
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Water Morph
+  priority: 50
+  icon_index: 99
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 32
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 6
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 6
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 1.25
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Thunder Morph
+  priority: 50
+  icon_index: 98
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 33
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 5
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 8
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 7
+    value: 1.25
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Earth Morph
+  priority: 50
+  icon_index: 100
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 34
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 7
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 7
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 8
+    value: 1.25
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Wind Morph
+  priority: 50
+  icon_index: 101
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 35
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 8
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 8
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 7
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 1.25
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Holy Morph
+  priority: 50
+  icon_index: 102
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 36
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 9
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 1.25
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: true
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Dark Morph
+  priority: 50
+  icon_index: 103
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 37
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 31
+    data_id: 10
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 10
+    value: 0.75
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 9
+    value: 1.25
   auto_removal_timing: 0
   min_turns: 1
   max_turns: 1
