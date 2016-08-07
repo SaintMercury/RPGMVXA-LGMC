@@ -35,74 +35,74 @@
   scroll_y: 208
   parent_id: 0
 6: !ruby/object:RPG::MapInfo
-  scroll_x: 561
+  scroll_x: 960
   name: City of Monsters
   expanded: true
   order: 2
-  scroll_y: 362
+  scroll_y: 1080
   parent_id: 1
 7: !ruby/object:RPG::MapInfo
   scroll_x: 544
   name: Bar
   expanded: false
   order: 3
-  scroll_y: 321
+  scroll_y: 352
   parent_id: 6
 8: !ruby/object:RPG::MapInfo
   scroll_x: 544
   name: Inn
-  expanded: true
+  expanded: false
   order: 4
-  scroll_y: 321
+  scroll_y: 448
   parent_id: 6
 9: !ruby/object:RPG::MapInfo
   scroll_x: 448
   name: Pawn Shop
-  expanded: true
+  expanded: false
   order: 5
-  scroll_y: 321
+  scroll_y: 336
   parent_id: 6
 10: !ruby/object:RPG::MapInfo
-  scroll_x: 272
-  name: MAP010
-  expanded: false
+  scroll_x: 432
+  name: Homeless Shelter
+  expanded: true
   order: 6
-  scroll_y: 208
+  scroll_y: 368
   parent_id: 6
 11: !ruby/object:RPG::MapInfo
-  scroll_x: 272
-  name: MAP011
-  expanded: false
+  scroll_x: 464
+  name: Item shop
+  expanded: true
   order: 7
-  scroll_y: 208
+  scroll_y: 320
   parent_id: 6
 12: !ruby/object:RPG::MapInfo
-  scroll_x: 272
-  name: MAP012
-  expanded: false
+  scroll_x: 336
+  name: House 1
+  expanded: true
   order: 8
-  scroll_y: 208
+  scroll_y: 320
   parent_id: 6
 13: !ruby/object:RPG::MapInfo
-  scroll_x: 272
-  name: MAP013
+  scroll_x: 336
+  name: House 2
   expanded: false
   order: 9
-  scroll_y: 208
+  scroll_y: 320
   parent_id: 6
 14: !ruby/object:RPG::MapInfo
-  scroll_x: 272
-  name: MAP014
+  scroll_x: 336
+  name: House 3
   expanded: false
   order: 10
-  scroll_y: 208
+  scroll_y: 320
   parent_id: 6
 15: !ruby/object:RPG::MapInfo
-  scroll_x: 272
-  name: MAP015
+  scroll_x: 336
+  name: House 4
   expanded: false
   order: 11
-  scroll_y: 208
+  scroll_y: 320
   parent_id: 6
 16: !ruby/object:RPG::MapInfo
   scroll_x: 272
