@@ -10,7 +10,7 @@
   character_name: $slime_gk_new_green1.1
   id: 1
   features: []
-  note: "<win quotes>\r\nblub wobble blub [Suck it nerds!]\r\n</win quotes>\r\n<level quotes>\r\nwobble wubble blerr [Better look out!]\r\n</level quotes>\r\n<drops quotes>\r\nblabble ooze pphlller [This looks tasty...]\r\n</drops quotes>"
+  note: "<win quotes>\r\nblub wobble blub [Suck it nerds!]\r\n[New Quote]\r\nbobble splerrr phlob [Tell me how my ass tastes.]\r\n[New quote]\r\nphlub sterr blubphler spibble glerble [??????]\r\n</win quotes>\r\n<level quotes>\r\nwobble wubble blerr [Better look out!]\r\n</level quotes>\r\n<drops quotes>\r\nblabble ooze pphlller [This looks tasty...]\r\n</drops quotes>"
   equips:
   - 0
   - 0
@@ -30,7 +30,7 @@
   character_name: $Potential_Skeleton_Sprite1_3
   id: 2
   features: []
-  note: ''
+  note: "<win quotes>\r\nPraise the lord!\r\n[New Quote]\r\nMake no covenant with evil, show no mercy.\r\n[New Quote]\r\nSix days of work will be done, but on the \\n\r\nseventh, I will destroy you.\r\n[New Quote]\r\nI don't need to pray to defeat the likes of you.\r\n</win quotes>\r\n<level quotes>\r\nLend me your strength!\r\n[New Quote]\r\nWhat is this power I feel?\r\n</level quotes>\r\n<drops quotes>\r\nA tribute for eradicating this darkness...\r\n[New Quote]\r\nAt least their corrupted forms are good \\n\r\nfor something...\r\n[New Quote]\r\nMy prayers are answered!\r\n</drops quotes>"
   equips:
   - 0
   - 0

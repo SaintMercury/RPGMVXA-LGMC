@@ -35,11 +35,11 @@
   scroll_y: 208
   parent_id: 0
 6: !ruby/object:RPG::MapInfo
-  scroll_x: 960
+  scroll_x: 800
   name: City of Monsters
   expanded: true
   order: 2
-  scroll_y: 1187
+  scroll_y: 972
   parent_id: 1
 7: !ruby/object:RPG::MapInfo
   scroll_x: 544
@@ -60,7 +60,7 @@
   name: Pawn Shop
   expanded: false
   order: 5
-  scroll_y: 321
+  scroll_y: 336
   parent_id: 6
 10: !ruby/object:RPG::MapInfo
   scroll_x: 432
