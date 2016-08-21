@@ -4191,7 +4191,7 @@
   icon_index: 115
   message1: ' uses Strong Morph!'
   scope: 11
-  animation_id: 0
+  animation_id: 81
   note: ''
   mp_cost: 0
   speed: 0
@@ -4485,7 +4485,7 @@
   icon_index: 99
   message1: ''
   scope: 11
-  animation_id: 0
+  animation_id: 111
   note: ''
   mp_cost: 0
   speed: 0
@@ -4554,7 +4554,7 @@
   icon_index: 98
   message1: ''
   scope: 11
-  animation_id: 0
+  animation_id: 55
   note: ''
   mp_cost: 0
   speed: 0
@@ -4623,7 +4623,7 @@
   icon_index: 100
   message1: ''
   scope: 11
-  animation_id: 0
+  animation_id: 112
   note: ''
   mp_cost: 0
   speed: 0
@@ -4692,7 +4692,7 @@
   icon_index: 101
   message1: ''
   scope: 11
-  animation_id: 0
+  animation_id: 95
   note: ''
   mp_cost: 0
   speed: 0
@@ -4761,7 +4761,7 @@
   icon_index: 102
   message1: ''
   scope: 11
-  animation_id: 0
+  animation_id: 107
   note: ''
   mp_cost: 0
   speed: 0
@@ -4830,7 +4830,7 @@
   icon_index: 103
   message1: ''
   scope: 11
-  animation_id: 0
+  animation_id: 97
   note: ''
   mp_cost: 0
   speed: 0

@@ -10,7 +10,7 @@
   character_name: $slime_gk_new_green1.1
   id: 1
   features: []
-  note: "<win quotes>\r\nblub wobble blub [Suck it nerds!]\r\n[New Quote]\r\nbobble splerrr phlob [Tell me how my ass tastes.]\r\n[New quote]\r\nphlub sterr blubphler spibble glerble [??????]\r\n</win quotes>\r\n<level quotes>\r\nwobble wubble blerr [Better look out!]\r\n</level quotes>\r\n<drops quotes>\r\nblabble ooze pphlller [This looks tasty...]\r\n</drops quotes>"
+  note: "<win quotes>\r\nblub wobble blub [Suck it nerds!]\r\n[New Quote]\r\nbobble splerrr phlob [Tell me how my ass tastes.]\r\n[New Quote]\r\nphlub sterr blubphler spibble glerble [??????]\r\n</win quotes>\r\n<level quotes>\r\nwobble wubble blerr [Better look out!]\r\n[New Quote]\r\nflurb wobble [Good luck farming this slime!]\r\n</level quotes>\r\n<drops quotes>\r\nblabble ooze pphlller [This looks tasty...]\r\n[New Quote]\r\nflub flublurbuble [I think I fell in something?]\r\n</drops quotes>"
   equips:
   - 0
   - 0
@@ -30,7 +30,7 @@
   character_name: $Potential_Skeleton_Sprite1_3
   id: 2
   features: []
-  note: "<win quotes>\r\nPraise the lord!\r\n[New Quote]\r\nMake no covenant with evil, show no mercy.\r\n[New Quote]\r\nSix days of work will be done, but on the \\n\r\nseventh, I will destroy you.\r\n[New Quote]\r\nI don't need to pray to defeat the likes of you.\r\n</win quotes>\r\n<level quotes>\r\nLend me your strength!\r\n[New Quote]\r\nWhat is this power I feel?\r\n</level quotes>\r\n<drops quotes>\r\nA tribute for eradicating this darkness...\r\n[New Quote]\r\nAt least their corrupted forms are good \\n\r\nfor something...\r\n[New Quote]\r\nMy prayers are answered!\r\n</drops quotes>"
+  note: "<win quotes>\r\nPraise the lord!\r\n[New Quote]\r\nMake no covenant with evil, show no mercy.\r\n[New Quote]\r\nMay they rest in peace...\r\n[New Quote]\r\nI don't need to pray to defeat the likes of you.\r\n</win quotes>\r\n<level quotes>\r\nLend me your strength!\r\n[New Quote]\r\nWhat is this power I feel?\r\n</level quotes>\r\n<drops quotes>\r\nA tribute for eradicating this darkness...\r\n[New Quote]\r\nAt least their corrupted forms are good for something.\r\n[New Quote]\r\nMy prayers are answered!\r\n</drops quotes>"
   equips:
   - 0
   - 0
@@ -50,7 +50,7 @@
   character_name: Evil
   id: 3
   features: []
-  note: ''
+  note: "<win quotes>\r\n...\r\n[New Quote]\r\n...... (raises weapon)\r\n[New Quote]\r\n. . . . . (Stan looks happy?)\r\n</win quotes>\r\n<level quotes>\r\n.......\r\n[New Quote]\r\n. . . . . . . . . . . . . . \r\n[New Quote]\r\n..... [Stan looks extra shiny]\r\n</level quotes>\r\n<drops quotes>\r\n. . . . . \r\n[New Quote]\r\n.........................\r\n</drops quotes>"
   equips:
   - 0
   - 0
@@ -70,7 +70,7 @@
   character_name: orc_sprite_possible
   id: 4
   features: []
-  note: ''
+  note: "<win quotes>\r\nWORMS!!\r\n[New Quote]\r\nIS THAT ALL YOU'VE GOT? PITIFUL...\r\n[New Quote]\r\nLONG LIVE THE SUPERIOR RACE!!\r\n</win quotes>\r\n<level quotes>\r\nNOW NOTHING WILL STOP ME!\r\n[New Quote]\r\nTRY CALLING ME A WIZARD NOW!\r\n[New Quote]\r\nI PITY THE FOOL THAT APPROACHES ME...\r\n</level quotes>\r\n<drops quotes>\r\nWHAT IS THIS?\r\n[New Quote]\r\nLOOKS LIKE THEY WERE USEFUL AFTER ALL...\r\n</drops quotes>"
   equips:
   - 0
   - 0
