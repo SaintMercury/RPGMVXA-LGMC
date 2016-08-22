@@ -4416,7 +4416,7 @@
   icon_index: 97
   message1: ''
   scope: 11
-  animation_id: 0
+  animation_id: 62
   note: ''
   mp_cost: 0
   speed: 0
@@ -4692,7 +4692,7 @@
   icon_index: 101
   message1: ''
   scope: 11
-  animation_id: 95
+  animation_id: 114
   note: ''
   mp_cost: 0
   speed: 0
@@ -4761,7 +4761,7 @@
   icon_index: 102
   message1: ''
   scope: 11
-  animation_id: 107
+  animation_id: 75
   note: ''
   mp_cost: 0
   speed: 0
@@ -4899,7 +4899,7 @@
   icon_index: 96
   message1: ''
   scope: 11
-  animation_id: 0
+  animation_id: 113
   note: ''
   mp_cost: 0
   speed: 0
