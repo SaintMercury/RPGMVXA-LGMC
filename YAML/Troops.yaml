@@ -1,12 +1,7 @@
 ---
 - 
 - !ruby/object:RPG::Troop
-  members:
-  - !ruby/object:RPG::Troop::Member
-    y: 288
-    hidden: false
-    x: 196
-    enemy_id: 1
+  members: []
   name: Dungeon Bug*1
   pages:
   - !ruby/object:RPG::Troop::Page
@@ -133,18 +128,23 @@
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 154
+    x: 80
     enemy_id: 5
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 272
+    x: 198
     enemy_id: 5
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 390
+    x: 316
     enemy_id: 5
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 449
+    enemy_id: 1
   name: Rate*3
   pages:
   - !ruby/object:RPG::Troop::Page
@@ -170,18 +170,23 @@
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 110
-    enemy_id: 6
+    x: 107
+    enemy_id: 4
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 272
-    enemy_id: 6
+    x: 217
+    enemy_id: 4
   - !ruby/object:RPG::Troop::Member
     y: 288
     hidden: false
-    x: 434
-    enemy_id: 6
+    x: 327
+    enemy_id: 4
+  - !ruby/object:RPG::Troop::Member
+    y: 248
+    hidden: false
+    x: 40
+    enemy_id: 4
   name: Wisp*3
   pages:
   - !ruby/object:RPG::Troop::Page

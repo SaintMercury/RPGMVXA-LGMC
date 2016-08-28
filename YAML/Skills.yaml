@@ -4189,9 +4189,9 @@
   name: Strong Morph
   occasion: 1
   icon_index: 115
-  message1: ' uses Strong Morph!'
+  message1: ' has morphed into something strong!'
   scope: 11
-  animation_id: 81
+  animation_id: 117
   note: ''
   mp_cost: 0
   speed: 0
@@ -4238,7 +4238,7 @@
   name: Brute Morph
   occasion: 1
   icon_index: 116
-  message1: ' uses Brute Morph!'
+  message1: ' has morphed into something brutish!'
   scope: 11
   animation_id: 115
   note: ''
@@ -4287,7 +4287,7 @@
   name: Siege Morph
   occasion: 1
   icon_index: 113
-  message1: ' uses Siege Morph!'
+  message1: ' has morphed into something siegish!'
   scope: 11
   animation_id: 116
   note: ''
@@ -4336,9 +4336,9 @@
   name: Swift Morph
   occasion: 1
   icon_index: 112
-  message1: ' uses Swift Morph!'
+  message1: ' has morphed into something swift!'
   scope: 11
-  animation_id: 0
+  animation_id: 118
   note: ''
   mp_cost: 0
   speed: 0
@@ -4991,27 +4991,37 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
+  description: "Self-inflicts a heavy hit to Vizcuz, but pisses him off.\r\nHigh increase to attack and chance of multiple moves."
   name: Beat
   occasion: 0
-  icon_index: 0
+  icon_index: 115
   message1: ''
-  scope: 1
-  animation_id: 0
+  scope: 11
+  animation_id: 13
   note: ''
   mp_cost: 0
   speed: 0
   id: 142
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 38
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 2
+    value1: 2.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
+    type: 1
     element_id: 0
-    formula: '0'
+    formula: a.atk * 10 - b.def * 2
     variance: 20
-    critical: false
+    critical: true
   success_rate: 100
-  hit_type: 0
+  hit_type: 1
   stype_id: 4
   tp_cost: 0
   required_wtype_id1: 0
@@ -5020,25 +5030,35 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
+  description: "A suicidal ram. High damage, but Vizcuz raises the \r\nopponents attack and defense afterwards."
   name: Bash
   occasion: 0
-  icon_index: 0
+  icon_index: 115
   message1: ''
   scope: 1
-  animation_id: 0
+  animation_id: 36
   note: ''
   mp_cost: 0
   speed: 0
   id: 143
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 2
+    value1: 5.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 31
+    data_id: 3
+    value1: 5.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
+    type: 1
+    element_id: 1
+    formula: a.atk * 6 - b.def * 2
     variance: 20
-    critical: false
+    critical: true
   success_rate: 100
   hit_type: 0
   stype_id: 4
@@ -5049,26 +5069,31 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
+  description: "Vizcuz grows in size to attempt to smash all enemies.\r\nSlimes are easy to dodge, so low hit chance."
   name: Crush
   occasion: 0
-  icon_index: 0
+  icon_index: 115
   message1: ''
-  scope: 1
-  animation_id: 0
+  scope: 2
+  animation_id: 35
   note: ''
   mp_cost: 0
   speed: 0
   id: 144
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 8
+    value1: 0.1
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
+    type: 1
     element_id: 0
-    formula: '0'
+    formula: a.atk * 5 - b.def * 2
     variance: 20
     critical: false
-  success_rate: 100
+  success_rate: 60
   hit_type: 0
   stype_id: 4
   tp_cost: 0
@@ -5081,7 +5106,7 @@
   description: ''
   name: Throw
   occasion: 0
-  icon_index: 0
+  icon_index: 115
   message1: ''
   scope: 1
   animation_id: 0
