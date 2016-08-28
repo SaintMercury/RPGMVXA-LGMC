@@ -4240,7 +4240,7 @@
   icon_index: 116
   message1: ' uses Brute Morph!'
   scope: 11
-  animation_id: 0
+  animation_id: 115
   note: ''
   mp_cost: 0
   speed: 0
@@ -4289,7 +4289,7 @@
   icon_index: 113
   message1: ' uses Siege Morph!'
   scope: 11
-  animation_id: 0
+  animation_id: 116
   note: ''
   mp_cost: 0
   speed: 0
