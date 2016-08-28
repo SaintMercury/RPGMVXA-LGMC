@@ -174,7 +174,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
-version_id: 43365881
+version_id: 82359215
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160

@@ -5012,7 +5012,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
+  stype_id: 4
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -5041,7 +5041,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
+  stype_id: 4
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -5070,7 +5070,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
+  stype_id: 4
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -5099,7 +5099,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
+  stype_id: 4
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -5157,7 +5157,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
+  stype_id: 5
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -5186,7 +5186,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
+  stype_id: 5
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -5215,7 +5215,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
+  stype_id: 5
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -5244,7 +5244,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
+  stype_id: 5
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -5302,7 +5302,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
+  stype_id: 6
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -5331,7 +5331,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
+  stype_id: 6
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -5360,7 +5360,7 @@
     critical: false
   success_rate: 100
   hit_type: 0
-  stype_id: 1
+  stype_id: 6
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0
@@ -5389,7 +5389,152 @@
     critical: false
   success_rate: 100
   hit_type: 0
+  stype_id: 6
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: '------------------'
+  occasion: 0
+  icon_index: 0
+  message1: ''
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 156
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
   stype_id: 1
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: Slip
+  occasion: 0
+  icon_index: 0
+  message1: ''
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 157
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 7
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: Flatten
+  occasion: 0
+  icon_index: 0
+  message1: ''
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 158
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 7
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: Ooze
+  occasion: 0
+  icon_index: 0
+  message1: ''
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 159
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 7
+  tp_cost: 0
+  required_wtype_id1: 0
+  required_wtype_id2: 0
+  repeats: 1
+  tp_gain: 0
+- !ruby/object:RPG::Skill
+  message2: ''
+  description: ''
+  name: Split
+  occasion: 0
+  icon_index: 0
+  message1: ''
+  scope: 1
+  animation_id: 0
+  note: ''
+  mp_cost: 0
+  speed: 0
+  id: 160
+  features: []
+  effects: []
+  damage: !ruby/object:RPG::UsableItem::Damage
+    type: 0
+    element_id: 0
+    formula: '0'
+    variance: 20
+    critical: false
+  success_rate: 100
+  hit_type: 0
+  stype_id: 7
   tp_cost: 0
   required_wtype_id1: 0
   required_wtype_id2: 0

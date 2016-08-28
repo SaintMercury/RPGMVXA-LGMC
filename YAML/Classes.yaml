@@ -2017,6 +2017,54 @@
     level: 1
     skill_id: 139
     note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 142
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 147
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 152
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 143
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 148
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 153
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 144
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 149
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 154
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 145
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 150
+    note: ''
+  - !ruby/object:RPG::Class::Learning
+    level: 1
+    skill_id: 155
+    note: ''
   id: 11
   features:
   - !ruby/object:RPG::BaseItem::Feature
