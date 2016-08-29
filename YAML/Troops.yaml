@@ -1,7 +1,12 @@
 ---
 - 
 - !ruby/object:RPG::Troop
-  members: []
+  members:
+  - !ruby/object:RPG::Troop::Member
+    y: 272
+    hidden: false
+    x: 128
+    enemy_id: 26
   name: Dungeon Bug*1
   pages:
   - !ruby/object:RPG::Troop::Page

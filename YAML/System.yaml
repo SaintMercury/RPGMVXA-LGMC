@@ -174,7 +174,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
-version_id: 96384467
+version_id: 56389872
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160
@@ -336,7 +336,7 @@ terms: !ruby/object:RPG::System::Terms
   - MP
   - TP
   - TP
-test_troop_id: 6
+test_troop_id: 1
 boat: !ruby/object:RPG::System::Vehicle
   start_y: 0
   bgm: !ruby/object:RPG::BGM {name: Ship, volume: 100, pitch: 100}

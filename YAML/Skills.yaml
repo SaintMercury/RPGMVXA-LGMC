@@ -5103,23 +5103,33 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
+  description: "Pitch blobs furiously at enemy. Hits randomly 3 times.\r\nBlobs have chance of blinding and poisoning enemies."
   name: Throw
   occasion: 0
   icon_index: 115
   message1: ''
-  scope: 1
-  animation_id: 0
+  scope: 5
+  animation_id: 119
   note: ''
   mp_cost: 0
   speed: 0
   id: 145
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 2
+    value1: 0.25
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 3
+    value1: 0.1
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
+    type: 1
     element_id: 0
-    formula: '0'
+    formula: a.atk * 2 - b.def * 2
     variance: 20
     critical: false
   success_rate: 100
@@ -5164,7 +5174,7 @@
   description: ''
   name: Slam
   occasion: 0
-  icon_index: 0
+  icon_index: 116
   message1: ''
   scope: 1
   animation_id: 0
@@ -5193,7 +5203,7 @@
   description: ''
   name: Flex
   occasion: 0
-  icon_index: 0
+  icon_index: 116
   message1: ''
   scope: 1
   animation_id: 0
@@ -5222,7 +5232,7 @@
   description: ''
   name: Flop
   occasion: 0
-  icon_index: 0
+  icon_index: 116
   message1: ''
   scope: 1
   animation_id: 0
@@ -5251,7 +5261,7 @@
   description: ''
   name: Engulf
   occasion: 0
-  icon_index: 0
+  icon_index: 116
   message1: ''
   scope: 1
   animation_id: 0

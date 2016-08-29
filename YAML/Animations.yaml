@@ -37271,3 +37271,276 @@
     frame: 12
     flash_scope: 0
   id: 118
+- !ruby/object:RPG::Animation
+  animation2_hue: 0
+  position: 1
+  name: Throw
+  animation2_name: ''
+  frames:
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 1
+      y: 8
+      z: 1
+      data:
+      - 0000 ffc8 fff8 0064 0000 0000 00ff 0001
+    cell_max: 1
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 2
+      y: 8
+      z: 1
+      data:
+      - 0001 0000
+      - ffc8 0030
+      - fff8 ffc0
+      - 0064 0064
+      - 0000 0000
+      - 0000 0000
+      - 00ff 00ff
+      - 0001 0001
+    cell_max: 2
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 3
+      y: 8
+      z: 1
+      data:
+      - 0001 0002 0000
+      - 0030 ffc8 0028
+      - ffc0 fff8 0020
+      - 0064 0064 0064
+      - 0000 0000 0000
+      - 0000 0000 0000
+      - 00ff 00ff 00ff
+      - 0001 0001 0001
+    cell_max: 3
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 4
+      y: 8
+      z: 1
+      data:
+      - 0003 0002 0001 0000
+      - ffc8 0030 0028 fff0
+      - fff8 ffc0 0020 ffa8
+      - 0064 0064 0064 0064
+      - 0000 0000 0000 0000
+      - 0000 0000 0000 0000
+      - 00ff 00ff 00ff 00ff
+      - 0001 0001 0001 0001
+    cell_max: 4
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 5
+      y: 8
+      z: 1
+      data:
+      - 0002 0004 0003 0000 0001
+      - 0028 ffc8 0030 ffd0 fff8
+      - 0020 fff8 ffc0 ffc8 ffa8
+      - 0064 0064 0064 0064 0064
+      - 0000 0000 0000 0000 0000
+      - 0000 0000 0000 0000 0000
+      - 00ff 00ff 00ff 00ff 00ff
+      - 0001 0001 0001 0001 0001
+    cell_max: 5
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 5
+      y: 8
+      z: 1
+      data:
+      - 0004 0003 0002 0001 0002
+      - ffc8 0030 0028 ffd0 fff8
+      - fff8 ffc0 0020 ffc8 ffa8
+      - 0064 0064 0064 0064 0064
+      - 0000 0000 0000 0000 0000
+      - 0000 0000 0000 0000 0000
+      - 00ff 00ff 00ff 00ff 00ff
+      - 0001 0001 0001 0001 0001
+    cell_max: 5
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 5
+      y: 8
+      z: 1
+      data:
+      - 0005 0004 0003 0002 0003
+      - ffc8 0030 0028 ffd0 fff8
+      - fff8 ffc0 0020 ffc8 ffa8
+      - 0064 0064 0064 0064 0064
+      - 0000 0000 0000 0000 0000
+      - 0000 0000 0000 0000 0000
+      - 00ff 00ff 00ff 00ff 00ff
+      - 0001 0001 0001 0001 0001
+    cell_max: 5
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 4
+      y: 8
+      z: 1
+      data:
+      - 0005 0004 0003 0004
+      - 0030 0028 ffd0 fff8
+      - ffc0 0020 ffc8 ffa8
+      - 0064 0064 0064 0064
+      - 0000 0000 0000 0000
+      - 0000 0000 0000 0000
+      - 00ff 00ff 00ff 00ff
+      - 0001 0001 0001 0001
+    cell_max: 4
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 3
+      y: 8
+      z: 1
+      data:
+      - 0005 0004 0005
+      - 0028 ffd0 fff8
+      - 0020 ffc8 ffa8
+      - 0064 0064 0064
+      - 0000 0000 0000
+      - 0000 0000 0000
+      - 00ff 00ff 00ff
+      - 0001 0001 0001
+    cell_max: 3
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 1
+      y: 8
+      z: 1
+      data:
+      - 0005 ffd0 ffc8 0064 0000 0000 00ff 0001
+    cell_max: 1
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 0
+      y: 8
+      z: 1
+      data: []
+    cell_max: 0
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 0
+      y: 8
+      z: 1
+      data: []
+    cell_max: 0
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 0
+      y: 8
+      z: 1
+      data: []
+    cell_max: 0
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 0
+      y: 8
+      z: 1
+      data: []
+    cell_max: 0
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 0
+      y: 8
+      z: 1
+      data: []
+    cell_max: 0
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 0
+      y: 8
+      z: 1
+      data: []
+    cell_max: 0
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 0
+      y: 8
+      z: 1
+      data: []
+    cell_max: 0
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 0
+      y: 8
+      z: 1
+      data: []
+    cell_max: 0
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 0
+      y: 8
+      z: 1
+      data: []
+    cell_max: 0
+  - !ruby/object:RPG::Animation::Frame
+    cell_data: !ruby/object:Table
+      dim: 2
+      x: 0
+      y: 8
+      z: 1
+      data: []
+    cell_max: 0
+  animation1_hue: 80
+  frame_max: 20
+  animation1_name: Attack6
+  timings:
+  - !ruby/object:RPG::Animation::Timing
+    flash_duration: 5
+    se: !ruby/object:RPG::SE {name: Damage2, pitch: 150, volume: 80}
+    flash_color: !ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}
+    frame: 0
+    flash_scope: 0
+  - !ruby/object:RPG::Animation::Timing
+    flash_duration: 5
+    se: !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
+    flash_color: !ruby/object:Color {r: 0.0, g: 255.0, b: 0.0, a: 255.0}
+    frame: 0
+    flash_scope: 1
+  - !ruby/object:RPG::Animation::Timing
+    flash_duration: 5
+    se: !ruby/object:RPG::SE {name: Damage2, pitch: 150, volume: 80}
+    flash_color: !ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}
+    frame: 1
+    flash_scope: 0
+  - !ruby/object:RPG::Animation::Timing
+    flash_duration: 5
+    se: !ruby/object:RPG::SE {name: Damage2, pitch: 150, volume: 80}
+    flash_color: !ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}
+    frame: 2
+    flash_scope: 0
+  - !ruby/object:RPG::Animation::Timing
+    flash_duration: 5
+    se: !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
+    flash_color: !ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}
+    frame: 3
+    flash_scope: 0
+  - !ruby/object:RPG::Animation::Timing
+    flash_duration: 5
+    se: !ruby/object:RPG::SE {name: '', pitch: 100, volume: 80}
+    flash_color: !ruby/object:Color {r: 255.0, g: 255.0, b: 255.0, a: 255.0}
+    frame: 4
+    flash_scope: 0
+  id: 119
