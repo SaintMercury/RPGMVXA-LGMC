@@ -21,8 +21,26 @@ airship: !ruby/object:RPG::System::Vehicle
   start_map_id: 0
 test_battlers:
 - !ruby/object:RPG::System::TestBattler
-  actor_id: 1
-  level: 99
+  actor_id: 2
+  level: 20
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+- !ruby/object:RPG::System::TestBattler
+  actor_id: 4
+  level: 20
+  equips:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+- !ruby/object:RPG::System::TestBattler
+  actor_id: 3
+  level: 18
   equips:
   - 0
   - 0
@@ -174,7 +192,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
-version_id: 56389872
+version_id: 48394629
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160

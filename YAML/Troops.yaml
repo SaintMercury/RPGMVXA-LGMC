@@ -3,10 +3,25 @@
 - !ruby/object:RPG::Troop
   members:
   - !ruby/object:RPG::Troop::Member
-    y: 272
+    y: 288
     hidden: false
-    x: 128
-    enemy_id: 26
+    x: 107
+    enemy_id: 4
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 217
+    enemy_id: 4
+  - !ruby/object:RPG::Troop::Member
+    y: 288
+    hidden: false
+    x: 327
+    enemy_id: 4
+  - !ruby/object:RPG::Troop::Member
+    y: 296
+    hidden: false
+    x: 56
+    enemy_id: 4
   name: Dungeon Bug*1
   pages:
   - !ruby/object:RPG::Troop::Page
