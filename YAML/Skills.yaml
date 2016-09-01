@@ -4998,7 +4998,7 @@
   message1: ''
   scope: 11
   animation_id: 13
-  note: ''
+  note: Holy shit, that'll kill vizcus with that current formula (10*atk - 2*def)
   mp_cost: 0
   speed: 0
   id: 142
@@ -5009,15 +5009,10 @@
     data_id: 38
     value1: 1.0
     value2: 0.0
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 31
-    data_id: 2
-    value1: 2.0
-    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 1
     element_id: 0
-    formula: a.atk * 10 - b.def * 2
+    formula: a.atk * 2
     variance: 20
     critical: true
   success_rate: 100
@@ -5069,12 +5064,12 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "Vizcuz grows in size to attempt to smash all enemies.\r\nSlimes are easy to dodge, so low hit chance."
+  description: Vizcuz grabs an enemy and crushes it!
   name: Crush
   occasion: 0
   icon_index: 115
   message1: ''
-  scope: 2
+  scope: 1
   animation_id: 35
   note: ''
   mp_cost: 0
@@ -5084,16 +5079,16 @@
   effects:
   - !ruby/object:RPG::UsableItem::Effect
     code: 21
-    data_id: 8
-    value1: 0.1
+    data_id: 7
+    value1: 1.0
     value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 1
-    element_id: 0
-    formula: a.atk * 5 - b.def * 2
+    element_id: 1
+    formula: a.atk * 6 - b.def * 2
     variance: 20
     critical: false
-  success_rate: 60
+  success_rate: 80
   hit_type: 0
   stype_id: 4
   tp_cost: 0
@@ -5103,33 +5098,23 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: "Pitch blobs furiously at enemy. Hits randomly 3 times.\r\nBlobs have chance of blinding and poisoning enemies."
+  description: Throws an enemy!
   name: Throw
   occasion: 0
   icon_index: 115
   message1: ''
-  scope: 5
+  scope: 1
   animation_id: 119
   note: ''
   mp_cost: 0
   speed: 0
   id: 145
   features: []
-  effects:
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 21
-    data_id: 2
-    value1: 0.25
-    value2: 0.0
-  - !ruby/object:RPG::UsableItem::Effect
-    code: 21
-    data_id: 3
-    value1: 0.1
-    value2: 0.0
+  effects: []
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 1
-    element_id: 0
-    formula: a.atk * 2 - b.def * 2
+    element_id: 1
+    formula: a.atk * 8 - b.def * 2
     variance: 20
     critical: false
   success_rate: 100
@@ -5171,23 +5156,28 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
+  description: Slam your foes with a giant gelatenous hand!
   name: Slam
   occasion: 0
   icon_index: 116
   message1: ''
-  scope: 1
+  scope: 2
   animation_id: 0
   note: ''
   mp_cost: 0
   speed: 0
   id: 147
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 8
+    value1: 1.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
+    type: 1
+    element_id: 1
+    formula: a.atk*3 - b.def*2
     variance: 20
     critical: false
   success_rate: 100
@@ -5200,7 +5190,7 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
+  description: "Toughen your slimy muscles for an incoming blow!\r\nAlso taunts enemies."
   name: Flex
   occasion: 0
   icon_index: 116
@@ -5212,7 +5202,17 @@
   speed: 0
   id: 148
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 9
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 39
+    value1: 1.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
     type: 0
     element_id: 0
@@ -5258,11 +5258,11 @@
   tp_gain: 0
 - !ruby/object:RPG::Skill
   message2: ''
-  description: ''
+  description: Eat an enemy!
   name: Engulf
   occasion: 0
   icon_index: 116
-  message1: ''
+  message1: engulfs an enemy!
   scope: 1
   animation_id: 0
   note: ''
@@ -5270,11 +5270,21 @@
   speed: 0
   id: 150
   features: []
-  effects: []
+  effects:
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 21
+    data_id: 40
+    value1: 1.0
+    value2: 0.0
+  - !ruby/object:RPG::UsableItem::Effect
+    code: 44
+    data_id: 1
+    value1: 0.0
+    value2: 0.0
   damage: !ruby/object:RPG::UsableItem::Damage
-    type: 0
-    element_id: 0
-    formula: '0'
+    type: 1
+    element_id: 2
+    formula: a.atk
     variance: 20
     critical: false
   success_rate: 100

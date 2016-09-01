@@ -2,11 +2,10 @@
 - 
 - !ruby/object:RPG::CommonEvent
   trigger: 0
-  name: Assimilate
+  name: GetFull
   switch_id: 1
   list:
-  - !ruby/object:RPG::EventCommand {i: 0, c: 355, p: [LGMC_Utils.assimilate]}
-  - !ruby/object:RPG::EventCommand {i: 0, c: 655, p: [puts $data_system.elements]}
+  - !ruby/object:RPG::EventCommand {i: 0, c: 313, p: [0, 1, 0, 41]}
   - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
   id: 1
 - !ruby/object:RPG::CommonEvent

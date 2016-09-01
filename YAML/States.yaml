@@ -1288,3 +1288,123 @@
   remove_by_damage: false
   remove_by_restriction: false
   description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Anticipating
+  priority: 50
+  icon_index: 13
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 39
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 3
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 21
+    data_id: 5
+    value: 1.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 0
+    value: 1.35
+  auto_removal_timing: 2
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Engulfed
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 4
+  message3: ''
+  note: Target should not be hit while inside vizcuz tummy, but we'll see.
+  id: 40
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: -0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: 1.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 4
+    value: 1.0
+  auto_removal_timing: 2
+  min_turns: 3
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: Filled Up
+  priority: 50
+  icon_index: 291
+  message1: ate too much...
+  message4: is feeling hungry again!
+  restriction: 0
+  message3: is still full...
+  note: ''
+  id: 41
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 44
+    data_id: 150
+    value: 0.0
+  auto_removal_timing: 2
+  min_turns: 3
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
+- !ruby/object:RPG::State
+  message2: ''
+  name: ''
+  priority: 50
+  icon_index: 0
+  message1: ''
+  message4: ''
+  restriction: 0
+  message3: ''
+  note: ''
+  id: 42
+  features: []
+  auto_removal_timing: 0
+  min_turns: 1
+  max_turns: 1
+  chance_by_damage: 100
+  steps_to_remove: 100
+  remove_by_walking: false
+  remove_at_battle_end: false
+  remove_by_damage: false
+  remove_by_restriction: false
+  description: ''
