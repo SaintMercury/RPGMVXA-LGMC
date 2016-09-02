@@ -34,8 +34,8 @@
   - Outside_A5
   - Outside_B
   - Outside_C
-  - ''
-  - ''
+  - evilcastle_D
+  - evilcastle_B
   flags: !ruby/object:Table
     dim: 1
     x: 8192
@@ -95,7 +95,7 @@
   tileset_names:
   - evilcastle_A1
   - evilcastle_A2
-  - ''
+  - Outside_C
   - evilcastle_A4
   - evilcastle_A5
   - evilcastle_B
