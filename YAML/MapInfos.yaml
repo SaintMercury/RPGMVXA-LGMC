@@ -119,11 +119,11 @@
   scroll_y: 208
   parent_id: 1
 18: !ruby/object:RPG::MapInfo
-  scroll_x: 272
-  name: MAP018
+  scroll_x: 400
+  name: Dungeon of Legends - City of Monsters Floor
   expanded: false
   order: 14
-  scroll_y: 208
+  scroll_y: 459
   parent_id: 17
 19: !ruby/object:RPG::MapInfo
   scroll_x: 272

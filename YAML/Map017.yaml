@@ -1,5 +1,5 @@
 --- !ruby/object:RPG::Map
-parallax_name: Sunset
+parallax_name: DarkSpace1
 height: 13
 events:
   1: !ruby/object:RPG::Event
@@ -232,8 +232,54 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 1, 13, 8, 2, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
-parallax_sx: 5
-bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: EV006
+    x: 8
+    y: 8
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 18, 12, 23, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+parallax_sx: 3
+bgm: !ruby/object:RPG::BGM {name: Dungeon2, volume: 100, pitch: 80}
 tileset_id: 2
 encounter_step: 30
 width: 17
@@ -247,8 +293,8 @@ data: !ruby/object:Table
   - 0608 0608 1b30 1b22 1b34 1b34 1b34 1b34 1b34 1b34 1b34 1b34 1b34 1b21 1b38 0608 0608
   - 0608 0608 1b48 1b3c 1b3c 1b3c 1b3c 1b3c 1b3c 1b3c 1b3c 1b3c 1b3c 1b3c 1b46 0608 0608
   - 0608 0608 1cd3 1cd2 1cd2 1cd2 1cd2 1cd2 1cd2 1cd2 1cd2 1cd2 1cd2 1cd2 1cd6 0608 0608
-  - 0608 0608 1cd1 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd4 0608 0608
-  - 0ca1 0cad 1cd1 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd4 0cab 0ca1
+  - 0615 0615 1cd1 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd4 0611 0611
+  - 0ca1 0cad 1cd1 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd4 0cae 0611
   - 0ab4 0ac4 1cd1 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd4 0ac2 0ab4
   - 0aa0 0ab8 1cd1 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd0 1cd4 0ab0 0aa0
   - 0aa0 0ab8 0cae 1cd8 1cd8 1cd8 1cd8 1cd8 1cd8 1cd8 1cd8 1cd8 1cd8 1cd8 0cae 0ab0 0aa0
@@ -282,14 +328,14 @@ data: !ruby/object:Table
   - 0000 0000 00a8 0000 00a8 0000 00a8 0000 0000 0000 0000 0000 00a8 0000 00a8 0000 00a8
   - 00a8 00a8 00b0 00a8 00b0 0000 00b0 0000 0000 0000 00a0 00a8 00b0 00a8 00b0 00a8 00b0
   - 00b0 00b0 0000 00b0 0000 00a8 0000 0000 0000 0000 0000 00b0 0000 00b0 0000 00b0 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 000f 000b 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 000a 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 000e 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
+  - 0003 0003 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0007 0003
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0005 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
@@ -297,7 +343,7 @@ data: !ruby/object:Table
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
 bgs: !ruby/object:RPG::BGS {name: '', volume: 80, pitch: 100}
 parallax_loop_y: false
-autoplay_bgm: false
+autoplay_bgm: true
 encounter_list: []
 autoplay_bgs: false
 parallax_show: true
