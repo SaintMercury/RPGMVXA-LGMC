@@ -140,6 +140,190 @@ events:
       - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 17, 8, 9, 0, 0]}
       - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  4: !ruby/object:RPG::Event
+    id: 4
+    name: EV004
+    x: 4
+    y: 20
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 19, 33, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  5: !ruby/object:RPG::Event
+    id: 5
+    name: EV005
+    x: 5
+    y: 20
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 19, 33, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  6: !ruby/object:RPG::Event
+    id: 6
+    name: EV006
+    x: 6
+    y: 20
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 19, 33, 0, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
+  7: !ruby/object:RPG::Event
+    id: 7
+    name: EV007
+    x: 21
+    y: 14
+    pages:
+    - !ruby/object:RPG::Event::Page
+      condition: !ruby/object:RPG::Event::Page::Condition
+        switch1_valid: false
+        switch2_valid: false
+        variable_valid: false
+        self_switch_valid: false
+        item_valid: false
+        actor_valid: false
+        switch1_id: 1
+        switch2_id: 1
+        variable_id: 1
+        variable_value: 0
+        self_switch_ch: A
+        item_id: 1
+        actor_id: 1
+      graphic: !ruby/object:RPG::Event::Page::Graphic
+        tile_id: 0
+        character_name: ''
+        character_index: 0
+        direction: 2
+        pattern: 0
+      move_type: 0
+      move_speed: 3
+      move_frequency: 3
+      move_route: !ruby/object:RPG::MoveRoute
+        repeat: true
+        skippable: false
+        wait: false
+        list:
+        - !ruby/object:RPG::MoveCommand {code: 0, parameters: []}
+      walk_anime: true
+      step_anime: false
+      direction_fix: false
+      through: false
+      priority_type: 0
+      trigger: 1
+      list:
+      - !ruby/object:RPG::EventCommand {i: 0, c: 250, p: [!ruby/object:RPG::SE {name: Move, pitch: 100, volume: 80}]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 201, p: [0, 20, 8, 12, 0, 0]}
+      - !ruby/object:RPG::EventCommand {i: 0, c: 0, p: []}
 parallax_sx: 6
 bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
 tileset_id: 5
@@ -160,13 +344,13 @@ data: !ruby/object:Table
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0640 0640 0618 0619 061a 0640 0640 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0644 0000 0000 0000 0640 0640 0640 0648 0648 0620 0621 0622 0648 0648 0640 0640 0640 0000 0000 0000 0000 0000 0000
   - 0000 0000 0644 0000 0640 0640 0648 0648 0648 1aba 17ea 0628 0629 062a 17ea 1aba 0648 0648 0648 0640 0640 0000 0000 0000 0000
-  - 0000 0000 0644 0640 0648 0648 1ab2 1aa4 1aa4 1aaa 17e0 0620 0621 0622 17e0 1aa1 1aa4 1aa4 1ab4 0648 0648 0640 0000 0000 0000
-  - 0000 0000 0640 0648 1ab2 1aa4 1a91 1a90 1a94 1ab6 17ec 0620 0621 0622 17ec 1ab8 1a98 1a90 1a92 1aa4 1ab4 0648 0640 0000 0000
-  - 0000 0640 0648 1ab2 1a91 1a90 1a90 1a90 1aa8 17ea 1ab2 1aa4 1aa4 1aa4 1ab4 17ea 1aa0 1a94 1aac 1a9c 1aae 1ab5 0648 0640 0000
-  - 0640 0648 1ab3 1aad 1aac 1aac 1aac 1aac 1ab6 17e0 1aa0 1a90 1a90 1a90 1aa8 17e0 1ab8 1ab6 17ea 1ab0 17ea 1aa1 1ab4 0648 0640
-  - 0648 1ab2 1aaa 17e3 17e1 17e1 17e1 17e1 17e1 17db 1aa0 1a90 1a90 1a90 1aa8 17d3 17e1 17e1 17e7 1ab0 17e0 1aa2 1aae 1ab5 0648
-  - 1aa4 1a91 1aa8 17e0 194a 194a 194a 194a 194a 17e0 1aa0 1a90 1a90 1a90 1aa8 17e0 194a 194a 194a 1ab0 17ec 1ab0 17ea 1aa1 1aa4
-  - 1a90 1a90 1aa8 17e0 1ab2 1aa4 1aa4 1aa4 1ab4 17e0 1aa0 1a90 1a90 1a90 1aa8 17e0 1ab2 1aa4 1aa4 1aaa 194a 1ab0 17e0 1aa0 1a90
+  - 0000 0000 0644 0640 0648 0648 1ab2 1aa4 1aa4 1aaa 17e0 0620 0621 0622 17e0 1aa1 1aa4 1aa5 1abd 0648 0648 0640 0000 0000 0000
+  - 0000 0000 0640 0648 1ab2 1aa4 1a91 1a90 1a94 1ab6 17ec 0620 0621 0622 17ec 1ab8 1a98 1aa8 17e3 17e1 17e5 0648 0640 0000 0000
+  - 0000 0640 0648 1ab2 1a91 1a90 1a90 1a90 1aa8 17ea 1ab2 1aa4 1aa4 1aa4 1ab4 17ea 1aa0 1aa8 17e0 194a 17e0 1aba 0648 0640 0000
+  - 0640 0648 1ab3 1aad 1aac 1aac 1aac 1aac 1ab6 17e0 1aa0 1a90 1a90 1a90 1aa8 17e0 1ab8 1ab6 17e0 1aba 17e0 1ab9 1abd 0648 0640
+  - 0648 1ab2 1aaa 17e3 17e1 17e1 17e1 17e1 17e1 17db 1aa0 1a90 1a90 1a90 1aa8 17d3 17e1 17e1 17e7 1ab0 17d3 17e1 17e5 1aba 0648
+  - 1aa4 1a91 1aa8 17e0 194a 194a 194a 194a 194a 17e0 1aa0 1a90 1a90 1a90 1aa8 17e0 194a 194a 194a 1ab0 17ec 194a 17e0 1aa1 1aa4
+  - 1a90 1a90 1aa8 17e0 1ab2 1aa4 1aa4 1aa4 1ab4 17e0 1aa0 1a90 1a90 1a90 1aa8 17e0 1ab2 1aa4 1aa4 1aaa 194a 1aba 17e0 1aa0 1a90
   - 1aac 1a98 1aa8 17e0 1ab8 1aac 1aac 1aac 1ab6 17e0 1aa0 1a90 1a90 1a90 1aa8 17e0 1ab8 1aac 1aac 1aae 1ab1 1ab7 17e0 1aa2 1aac
   - 0640 1aa0 1aa8 17e0 0620 0621 0622 17eb 17e1 17db 1aa0 1a90 1a90 1a90 1aa8 17d3 17e1 17e1 17e1 17e1 17e1 17e1 17e7 1ab0 0640
   - 0000 1aa0 1aa8 17e0 0628 0629 062a 1ab2 1ab4 17e0 1aa0 1a90 1a90 1a90 1aa8 17e0 1ab2 1aa4 1aa4 1aa4 1aa4 1aa4 1aa4 1aaa 0000
@@ -211,11 +395,11 @@ data: !ruby/object:Table
   - 0000 0000 0000 0000 0000 0000 0000 0000 0005 0020 001d 0000 0000 0000 001d 0000 0000 0000 0004 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 001b 0000 0000 0000 000d 0000 0025 0000 0000 0000 0025 0000 0000 0000 000c 0018 0019 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 001b 0000 0000 0000 0000 002d 0000 0000 0000 002d 0000 0000 0000 0000 0020 0021 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0035 0000 0000 0000 0035 0000 0000 0000 0019 0019 0019 0000 0000 0000 0000
-  - 0000 0000 001c 0000 0000 0000 0000 0000 0000 0258 0000 0000 0000 00ab 00ac 0258 0000 0000 0019 0019 0019 0000 0000 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0260 0000 0000 0000 00b3 00b4 0260 0000 0019 0000 0000 0000 0000 0000 001a 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0258 00ad 00ae 0000 0000 0000 0258 0000 0000 0000 0000 0000 0019 0019 0000 0000
-  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0260 0000 0000 0000 0000 0000 0260 0000 0000 0000 0000 0000 0019 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0035 0000 0000 0000 0035 0000 0000 0000 0000 0209 0000 0000 0000 0000 0000
+  - 0000 0000 001c 0000 0000 0000 0000 0000 0000 0258 0000 0000 0000 00a9 00aa 0258 0000 0000 0000 0211 0000 0000 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0260 0000 0000 0000 00b1 00b2 0260 0000 0019 0000 0000 0000 0000 0000 001a 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0258 00ad 00ae 0000 0000 0000 0258 0000 0000 0000 0000 0000 0209 0000 0000 0000
+  - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0260 0000 0000 0000 0000 0000 0260 0000 0000 0000 0000 0000 0211 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 025b 0000 0000 0000 0000 0000 025b 0000 0000 0000 0000 0000 0000 0000 0000 0000
   - 0000 0000 0000 0000 0000 0000 0000 0000 0000 0263 0000 0000 0000 0000 0000 0263 0000 0000 0000 0000 0000 0000 0000 0000 0000

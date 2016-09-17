@@ -39,7 +39,7 @@
   name: City of Monsters
   expanded: true
   order: 2
-  scroll_y: 956
+  scroll_y: 972
   parent_id: 1
 7: !ruby/object:RPG::MapInfo
   scroll_x: 544
@@ -123,18 +123,18 @@
   name: Dungeon of Legends - City of Monsters Floor
   expanded: false
   order: 14
-  scroll_y: 459
+  scroll_y: 486
   parent_id: 17
 19: !ruby/object:RPG::MapInfo
-  scroll_x: 272
-  name: MAP019
+  scroll_x: 739
+  name: Basement Prison
   expanded: false
   order: 15
   scroll_y: 208
   parent_id: 17
 20: !ruby/object:RPG::MapInfo
   scroll_x: 272
-  name: MAP020
+  name: Return Jump Floor
   expanded: false
   order: 16
   scroll_y: 208
