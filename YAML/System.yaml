@@ -48,7 +48,7 @@ test_battlers:
   - 0
   - 0
 _: 7829367
-edit_map_id: 18
+edit_map_id: 6
 battle_end_me: !ruby/object:RPG::ME
   name: Victory1
   pitch: 100
@@ -192,7 +192,7 @@ variables:
 - ''
 - ''
 battle_bgm: !ruby/object:RPG::BGM {name: '', volume: 100, pitch: 100}
-version_id: 5007743
+version_id: 10289677
 start_map_id: 1
 battler_name: Assassin
 magic_number: 77696160
